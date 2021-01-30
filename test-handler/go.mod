@@ -1,4 +1,4 @@
-module courses/go-lambda/proj1
+module github.com/serverless-go/test-handler
 
 go 1.15
 

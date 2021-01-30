@@ -1,4 +1,4 @@
-module courses/go-lambda/proj2
+module github.com/serverless-go/automation-apex
 
 go 1.15
 

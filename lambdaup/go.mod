@@ -1,4 +1,4 @@
-module github.com/serverless-go/automation-apex
+module github.com/serverless-go/lambdaup
 
 go 1.15
 

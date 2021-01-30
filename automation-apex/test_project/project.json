@@ -1,0 +1,5 @@
+{
+	"Name": "Lambda_UP_1",
+	"Bucket": "golang-test1203",
+	"Role": "donothing"
+}

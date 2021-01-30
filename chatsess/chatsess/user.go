@@ -45,7 +45,7 @@ func GetDBUser(uname string, sess *session.Session) (*User, error) {
 	uname = html.EscapeString(uname)
 
 	dbres, err := dbc.GetItem(&dynamodb.GetItemInput{
-		TableName: aws.String("ch_user"),
+		TableName: aws.String("ch_users"),
 		Key: map[string]*dynamodb.AttributeValue{
 			"Username": {S: aws.String(uname)},
 		},

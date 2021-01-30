@@ -51,7 +51,7 @@ func (l *Login) Put(sess *session.Session) error {
 	_, err := dbc.PutItem(&dynamodb.PutItemInput{
 		TableName: aws.String("ch_sessions"),
 		Item: map[string]*dynamodb.AttributeValue{
-			"Sessid":   {S: aws.String(l.Sessid)},
+			"sessID":   {S: aws.String(l.Sessid)},
 			"Username": {S: aws.String(l.Username)},
 		},
 	})
